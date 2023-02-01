@@ -1,4 +1,11 @@
-class Person
+class Nameable
+  def correct_name
+    raise NotImplementedError
+  end
+end
+
+
+class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
@@ -20,4 +27,41 @@ class Person
   def can_use_services?
     is_of_age? || @parent_permission
   end
+
+  def correct_name
+    @name
+  end
 end
+
+
+class Decorator < Nameable
+  def initialize(nameable)
+    @nameable = nameable
+  end
+
+  def correct_name
+    @nameable.correct_name
+  end
+end
+
+
+class CapitalizeDecorator < Decorator
+    def correct_name
+      @nameable.correct_name.capitalize
+    end
+  end
+
+class TrimmerDecorator < Decorator
+    def correct_name
+      @nameable.correct_name[0..9]
+    end
+  end
+
+person = Person.new(age:47,name:"maximilianus")
+puts person.correct_name
+
+capitalizedPerson = CapitalizeDecorator.new(person)
+puts capitalizedPerson.correct_name
+
+capitalizedTrimmedPerson = TrimmerDecorator.new(capitalizedPerson)
+puts capitalizedTrimmedPerson.correct_name
