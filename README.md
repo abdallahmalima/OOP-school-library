@@ -184,9 +184,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Add a class Classroom**
-- [ ] **Add a class Book**
-- [ ] **Add a class Rental**
+- [ ] **Add a class Subject**
+- [ ] **Add a class Timetable**
+
 
 <!-- CONTRIBUTING -->
 
