@@ -5,9 +5,8 @@ class Nameable
 end
 
 class Person < Nameable
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
   attr_reader :id
-  attr_accessor :rentals
 
   def initialize(age:, name: 'Unknown', parent_permission: true)
     super()
