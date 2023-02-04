@@ -3,8 +3,6 @@ require('./teacher')
 require('./classroom')
 require('./book')
 require('./rental')
-
-
 class App
   attr_accessor :books, :persons, :rentals
 
