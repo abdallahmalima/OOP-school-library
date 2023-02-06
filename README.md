@@ -123,8 +123,14 @@ To run the project, execute the following command:
 👤 **Abdallah Antony**
 
 - GitHub: [@githubhandle](https://github.com/abdallahmalima)
-- Twitter: [@twitterhandle](https://twitter.com/Softmal1)
+- Twitter: [@obwombe_kennedy](https://twitter.com/Softmal1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdallah-malima-antony/)
+
+👤 **Kennedy Omondi**
+
+- GitHub: [@kennankole](https://github.com/kennankole)
+- Twitter: [@twitterhandle](https://twitter.com/obwombe_kennedy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennedyomondi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
