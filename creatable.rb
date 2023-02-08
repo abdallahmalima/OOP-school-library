@@ -1,5 +1,4 @@
 require 'json'
-
 class Createable
   def create(map)
     raise NotImplementedError, 'You should implement list method in you class'
