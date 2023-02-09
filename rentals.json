@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2080-02-29",
+    "book": {
+      "id": 371,
+      "title": "Matheatics",
+      "author": "John"
+    },
+    "person": {
+      "type": "teacher",
+      "id": 85,
+      "name": "John",
+      "age": "40",
+      "specialization": "Teacher"
+    }
+  }
+]
